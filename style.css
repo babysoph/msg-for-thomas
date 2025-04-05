@@ -1,0 +1,45 @@
+@font-face {
+    font-family: MinecraftStandard;
+    src: url(./fonts/MinecraftStandard.woff) format(woff)
+}
+body {
+    background-color: #fbf9f8;
+    font-family: 'MinecraftStandard', sans-serif;
+    text-align: center;
+    padding: 50px;
+    cursor: url(./images/pinkheart_normalselect.cur), pointer;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #f6b0bb;
+  }
+  
+  img {
+    max-width: 300px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  button {
+    background-color: #9cad8c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-family: 'MinecraftStandard', sans-serif;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    cursor: url(./images/pinkheart_linkselect.cur), pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #7e8c69;
+  }
+  
+  #letterMessage {
+    font-size: 1.3rem;
+    color: #b2bba4;
+    margin-top: 20px;
+  }
+  
